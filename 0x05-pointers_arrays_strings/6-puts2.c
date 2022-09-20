@@ -2,11 +2,9 @@
 
 /**
  * puts2 - this prints every character of a string
- * 
  * @str: string parameter input
- *
  * Return: Nothing
- */
+*/
 
 void puts2(char *str)
 {
