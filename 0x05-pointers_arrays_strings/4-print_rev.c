@@ -1,7 +1,6 @@
 #include"main.h"
 
 /**
- *
  * print_rev - prints a string in reverse
  *
  * @s: string parameter inpu*
@@ -20,8 +19,8 @@ for (index = 0; s[index] != '\0'; ++index)
 
 /*print char from the last index as you decrement*/
 
-	for (--index; index >= 0; --index)
-	_putchar(s[index]);
-	_putchar('\n');
+for (--index; index >= 0; --index)
+_putchar(s[index]);
+_putchar('\n');
 
 }
