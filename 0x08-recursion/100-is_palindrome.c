@@ -7,7 +7,6 @@
  */
 
 int _strlen_recursion(char *s)
-
 {
 	int len = 0;
 
@@ -17,13 +16,12 @@ int _strlen_recursion(char *s)
 	}
 	if (*s != '\0')
 	{
-		len++
+		len++;
 		len += _strlen_recursion(++s);
 		return (len);
 	}
 	return (0);
 }
-
 /**
  * _compareends - checks for matches at either end of a str
  * @s: the string
