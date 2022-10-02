@@ -1,5 +1,5 @@
+#include <std.h>
 #include "main.h"
-#include <std.io>
 
 /**
  * main - this prints the name of the arguments
@@ -14,4 +14,3 @@ int main(int argc, char *argv[])
 
 	return (0);
 }
-
