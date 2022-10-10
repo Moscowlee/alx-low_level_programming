@@ -9,7 +9,7 @@
  * Return: pointer
  */
 
-nt *array_range(int min, int max)
+int *array_range(int min, int max)
 {
 	int *ptr;
 	int diff, i;
@@ -22,8 +22,8 @@ nt *array_range(int min, int max)
 	if (ptr == NULL)
 		return (NULL);
 	for (i = 0; i <= diff; min++, i++)
-		{
-			ptr[i] = min;
-		}
+	{
+		ptr[i] = min;
+	}
 	return (ptr);
 }
