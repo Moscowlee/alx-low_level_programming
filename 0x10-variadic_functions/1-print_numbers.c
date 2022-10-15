@@ -4,11 +4,11 @@
 #include <stdarg.h>
 
 /**
- * 1-print_numbers: - Prints numbers, followed by a new line.
+ * print_numbers: - Prints numbers, followed by a new line.
  * @separator: The string to be printed between numbers.
  * @n: The number of integers passed to the function.
  * @...: A variable number of numbers to be printed.
- * Description: returns 0 when false.
+ * Description: The program prints a new line after a number.
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
