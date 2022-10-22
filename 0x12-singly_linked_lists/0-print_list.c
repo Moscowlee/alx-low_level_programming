@@ -2,9 +2,10 @@
 
 /*
  * print_list - prints all the elements of a list_t list.
- * @h: singly linked list.
+ * @h: param linked list.
  * Return: struct
  */
+
 size_t print_list(const list_t *h)
 {
 	size_t nelem;
